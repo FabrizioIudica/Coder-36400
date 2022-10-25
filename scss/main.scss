@@ -1,0 +1,244 @@
+.navbar{
+
+    background-color: bisque;
+    padding: 20px;
+
+    h1 {
+        color: brown;
+    
+    }
+}
+
+/* Estilos para header */
+
+header {
+    margin-top: 50px;
+    margin-left: 25px;
+
+    ul{
+        list-style: none;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        margin-right: 60px;
+    
+        margin-top: 55px;
+    }
+
+    a{
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+    div{
+        font-size: 25px;
+        font-weight: lighter;
+        color: blue;   
+
+    }
+
+    h2{
+        margin-top: 40px;
+    }
+
+    @media screen and (max-width: 500px) {
+    
+        header {
+    
+            margin-right: 50px;
+        }
+    
+    
+        #ul_header {
+            flex-direction: column;
+        }
+        
+    }
+
+}
+
+
+/* estilos footer */
+
+footer {
+
+    background-color: bisque;
+    padding: 25px;
+    padding-bottom: 10px;
+
+    ul{
+        list-style: none;
+        align-items: center;
+    }
+
+    img{
+        margin-right: 10px;
+    }
+
+}
+
+/* estilos perro html */
+
+#perronuevo {
+    color: rgb(90, 218, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 40px;
+    font-family: 'Combo', cursive;
+
+    @media screen and (max-width: 700px) {
+
+        #perronuevo {
+            flex-direction: column;
+        }
+    }   
+}
+
+#perroparte2 {
+    color: rgb(0, 185, 185);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    padding: 40px;
+    margin-top: 20px;
+
+    font-family: 'Combo', cursive;
+
+    div{
+        margin-left: 15px;
+    }
+
+    @media screen and (max-width: 700px) {
+    
+        #perroparte2 {
+            flex-direction: column;
+        }
+    }   
+}
+
+/* estilos gatos */
+
+#gatos1{
+    padding: 20px;
+
+    h2{
+        margin-top: 15px;
+        text-decoration: underline;
+    }
+
+    p{
+        margin-left: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+        margin-left: 25px;
+        text-decoration: underline;
+    }
+}
+
+/* estilos hamster */
+#hamster1{
+    color: rgb(43, 61, 226);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 40px;
+    font-family: 'Combo', cursive;
+
+    @media screen and (max-width: 700px) {
+        #hamster1 {
+            flex-direction: column;
+        }
+    }   
+}
+
+#hamster2 {
+    font-family: 'Combo', cursive;
+
+    color: rgb(43, 226, 43);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    padding: 40px;
+    margin-top: 20px;
+
+    div{
+        margin-left: 15px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+
+    @media screen and (max-width: 700px) {
+
+        #hamster2 {
+            flex-direction: column;
+        }
+    }   
+}
+
+/* Estilos conejo */
+
+#conejo1{
+
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Animaciones */
+
+
+#imagenes_tipo1 {
+
+    animation-name: entrada-inferior;
+    animation-duration: 2s;
+
+
+    @keyframes entrada-inferior {
+
+        0% {
+            transform: translatey(100px);
+    
+        }
+    
+        100% {
+    
+            transform: translatey(0px);
+    
+        }
+    
+    }
+
+}
+
+.imagenes_tipo2{
+
+    animation-name: entrada-lateral;
+    animation-duration: 2s;
+    justify-content: left;
+
+    @keyframes entrada-lateral{
+
+        0% {
+    
+            transform: translateX(300px);
+        }
+    
+        100% {
+    
+            transform: translateX(0px);
+        }
+    
+    }
+}
