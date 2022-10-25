@@ -1,243 +1,136 @@
-.navbar{
-
-    background-color: bisque;
-    padding: 20px;
-}
-
-h1 {
-    color: brown;
-
-}
+.navbar {
+  background-color: bisque;
+  padding: 20px; }
+  .navbar h1 {
+    color: brown; }
 
 /* Estilos para header */
-
 header {
-    margin-top: 50px;
-    margin-left: 25px;
-
-}
-
-#ul_header {
-
+  margin-top: 50px;
+  margin-left: 25px; }
+  header ul {
     list-style: none;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     margin-right: 60px;
-
-    margin-top: 55px;
-}
-
-header div ul li a {
-
+    margin-top: 55px; }
+  header a {
     font-size: 30px;
-    margin-left: 25px;
-}
-
-header div  {
+    margin-left: 25px; }
+  header div {
     font-size: 25px;
     font-weight: lighter;
-    color: blue;
-
-}
-
-#h2_header {
-
-    margin-top: 40px;
-}
+    color: blue; }
+  header h2 {
+    margin-top: 40px; }
+  @media screen and (max-width: 500px) {
+    header header {
+      margin-right: 50px; }
+    header #ul_header {
+      flex-direction: column; } }
 
 /* estilos footer */
-
 footer {
-
-    background-color: bisque;
-    padding: 25px;
-    padding-bottom: 10px;
-
-}
-
-#ul_footer {
+  background-color: bisque;
+  padding: 25px;
+  padding-bottom: 10px; }
+  footer ul {
     list-style: none;
-    align-items: center;
-}
+    align-items: center; }
+  footer img {
+    margin-right: 10px; }
 
-#footer_imagen {
-
-    margin-right: 10px;
-}
 /* estilos perro html */
-
 #perronuevo {
-    color: rgb(90, 218, 250);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    padding: 40px;
-    font-family: 'Combo', cursive;
-
-}
-
-#perronuevo p {
-    margin-left: 20px;
-}
+  color: #5adafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+  font-family: 'Combo', cursive; }
+  @media screen and (max-width: 700px) {
+    #perronuevo #perronuevo {
+      flex-direction: column; } }
 
 #perroparte2 {
-    color: rgb(0, 185, 185);
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-
-    padding: 40px;
-    margin-top: 20px;
-
-    font-family: 'Combo', cursive;
-
-}
-
-#perroparte2sub2 {
-
-    margin-left: 15px;
-}
-
+  color: #00b9b9;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 20px;
+  font-family: 'Combo', cursive; }
+  #perroparte2 div {
+    margin-left: 15px; }
+  @media screen and (max-width: 700px) {
+    #perroparte2 #perroparte2 {
+      flex-direction: column; } }
 
 /* estilos gatos */
-
-#gatos1{
-
-    padding: 20px;
-}
-
-
-#gatos3 {
-    margin-left: 20px;
-
-}
-
-#gatos4{
+#gatos1 {
+  padding: 20px; }
+  #gatos1 h2 {
     margin-top: 15px;
-    text-decoration: underline;
-
-}
+    text-decoration: underline; }
+  #gatos1 p {
+    margin-left: 20px; }
+  #gatos1 h3 {
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: underline; }
 
 /* estilos hamster */
-
-#hamster1{
-    color: rgb(43, 61, 226);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    padding: 40px;
-    font-family: 'Combo', cursive;
-
-}
+#hamster1 {
+  color: #2b3de2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+  font-family: 'Combo', cursive; }
+  @media screen and (max-width: 700px) {
+    #hamster1 #hamster1 {
+      flex-direction: column; } }
 
 #hamster2 {
-    font-family: 'Combo', cursive;
-
-    color: rgb(43, 226, 43);
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-
-    padding: 40px;
-    margin-top: 20px;
-}
+  font-family: 'Combo', cursive;
+  color: #2be22b;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 20px; }
+  #hamster2 div {
+    margin-left: 15px; }
+  #hamster2 h3 {
+    font-size: 20px; }
+  @media screen and (max-width: 700px) {
+    #hamster2 #hamster2 {
+      flex-direction: column; } }
 
 /* Estilos conejo */
-
-#conejo1{
-
-    padding: 20px;
-    font-family: 'Oswald', sans-serif;
-}
-
+#conejo1 {
+  padding: 20px;
+  font-family: 'Oswald', sans-serif; }
 
 /* Animaciones */
-
-
 #imagenes_tipo1 {
-
-    animation-name: entrada-inferior;
-    animation-duration: 2s;
-
-}
+  animation-name: entrada-inferior;
+  animation-duration: 2s; }
 
 @keyframes entrada-inferior {
+  0% {
+    transform: translatey(100px); }
+  100% {
+    transform: translatey(0px); } }
 
-    0% {
-        transform: translatey(100px);
+.imagenes_tipo2 {
+  animation-name: entrada-lateral;
+  animation-duration: 2s;
+  justify-content: left; }
 
-    }
-
-    100% {
-
-        transform: translatey(0px);
-
-    }
-
-}
-
-.imagenes_tipo2{
-
-    animation-name: entrada-lateral;
-    animation-duration: 2s;
-    justify-content: left;
-}
-
-@keyframes entrada-lateral{
-
-    0% {
-
-        transform: translateX(300px);
-    }
-
-    100% {
-
-        transform: translateX(0px);
-    }
-
-}
-
-/* Responsive */
-
-@media screen and (max-width: 500px) {
-    
-    header {
-
-        margin-right: 50px;
-    }
-
-
-    #ul_header {
-        flex-direction: column;
-    }
-    
-
-
-}
-
-
-
-@media screen and (max-width: 700px) {
-
-    #perronuevo {
-        flex-direction: column;
-    }
-
-    #perroparte2 {
-        flex-direction: column;
-    }
-
-    #hamster1 {
-        flex-direction: column;
-    }
-
-    #hamster2{
-        flex-direction: column;
-    }
-}
-
+@keyframes entrada-lateral {
+  0% {
+    transform: translateX(300px); }
+  100% {
+    transform: translateX(0px); } }
