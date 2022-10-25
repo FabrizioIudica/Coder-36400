@@ -24,6 +24,11 @@ header {
     color: blue; }
   header h2 {
     margin-top: 40px; }
+  @media screen and (max-width: 500px) {
+    header header {
+      margin-right: 50px; }
+    header ul {
+      flex-direction: column; } }
 
 /* estilos footer */
 footer {
@@ -119,12 +124,6 @@ footer {
     transform: translateX(0px); } }
 
 /* Responsive */
-@media screen and (max-width: 500px) {
-  header {
-    margin-right: 50px; }
-  #ul_header {
-    flex-direction: column; } }
-
 @media screen and (max-width: 700px) {
   #perronuevo {
     flex-direction: column; }
