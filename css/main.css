@@ -24,11 +24,6 @@ header {
     color: blue; }
   header h2 {
     margin-top: 40px; }
-  @media screen and (max-width: 500px) {
-    header header {
-      margin-right: 50px; }
-    header #ul_header {
-      flex-direction: column; } }
 
 /* estilos footer */
 footer {
@@ -49,9 +44,6 @@ footer {
   justify-content: space-between;
   padding: 40px;
   font-family: 'Combo', cursive; }
-  @media screen and (max-width: 700px) {
-    #perronuevo #perronuevo {
-      flex-direction: column; } }
 
 #perroparte2 {
   color: #00b9b9;
@@ -63,9 +55,6 @@ footer {
   font-family: 'Combo', cursive; }
   #perroparte2 div {
     margin-left: 15px; }
-  @media screen and (max-width: 700px) {
-    #perroparte2 #perroparte2 {
-      flex-direction: column; } }
 
 /* estilos gatos */
 #gatos1 {
@@ -88,9 +77,6 @@ footer {
   justify-content: space-between;
   padding: 40px;
   font-family: 'Combo', cursive; }
-  @media screen and (max-width: 700px) {
-    #hamster1 #hamster1 {
-      flex-direction: column; } }
 
 #hamster2 {
   font-family: 'Combo', cursive;
@@ -104,9 +90,6 @@ footer {
     margin-left: 15px; }
   #hamster2 h3 {
     font-size: 20px; }
-  @media screen and (max-width: 700px) {
-    #hamster2 #hamster2 {
-      flex-direction: column; } }
 
 /* Estilos conejo */
 #conejo1 {
@@ -134,3 +117,14 @@ footer {
     transform: translateX(300px); }
   100% {
     transform: translateX(0px); } }
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+  #perronuevo {
+    flex-direction: column; }
+  #perroparte2 {
+    flex-direction: column; }
+  #hamster1 {
+    flex-direction: column; }
+  #hamster2 {
+    flex-direction: column; } }

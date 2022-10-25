@@ -43,20 +43,6 @@ header {
         margin-top: 40px;
     }
 
-    @media screen and (max-width: 500px) {
-    
-        header {
-    
-            margin-right: 50px;
-        }
-    
-    
-        #ul_header {
-            flex-direction: column;
-        }
-        
-    }
-
 }
 
 
@@ -89,13 +75,6 @@ footer {
 
     padding: 40px;
     font-family: 'Combo', cursive;
-
-    @media screen and (max-width: 700px) {
-
-        #perronuevo {
-            flex-direction: column;
-        }
-    }   
 }
 
 #perroparte2 {
@@ -113,12 +92,6 @@ footer {
         margin-left: 15px;
     }
 
-    @media screen and (max-width: 700px) {
-    
-        #perroparte2 {
-            flex-direction: column;
-        }
-    }   
 }
 
 /* estilos gatos */
@@ -150,13 +123,7 @@ footer {
     justify-content: space-between;
 
     padding: 40px;
-    font-family: 'Combo', cursive;
-
-    @media screen and (max-width: 700px) {
-        #hamster1 {
-            flex-direction: column;
-        }
-    }   
+    font-family: 'Combo', cursive; 
 }
 
 #hamster2 {
@@ -177,14 +144,7 @@ footer {
     h3{
         font-size: 20px;
     }
-
-
-    @media screen and (max-width: 700px) {
-
-        #hamster2 {
-            flex-direction: column;
-        }
-    }   
+ 
 }
 
 /* Estilos conejo */
@@ -240,5 +200,26 @@ footer {
             transform: translateX(0px);
         }
     
+    }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+
+    #perronuevo {
+        flex-direction: column;
+    }
+
+    #perroparte2 {
+        flex-direction: column;
+    }
+
+    #hamster1 {
+        flex-direction: column;
+    }
+
+    #hamster2{
+        flex-direction: column;
     }
 }
